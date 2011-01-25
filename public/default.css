@@ -5,7 +5,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 */
 
 body {
-	margin-top: 50px;
+	margin-top: 10px;
 	padding: 0;
 	background: #787878;
 	text-align: justify;
@@ -61,7 +61,7 @@ img.right {
 #header {
 	width: 1000px;
 	margin: 0 auto;
-	height: 150px;
+	height: 130px;
 	background: url(images/img02.jpg) repeat-x left top;
 }
 
@@ -69,7 +69,7 @@ img.right {
 
 #logo {
 	width: 1000px;
-	height: 100px;
+	height: 80px;
 	margin: 0 auto;
 	padding: 0 10px 0 70px;
 	background: url(images/img01.jpg) no-repeat left top;
@@ -88,7 +88,7 @@ img.right {
 #logo h1 {
 	padding: 25px 0 0 0;
 	letter-spacing: -1px;
-	text-transform: lowercase;
+/*	text-transform: lowercase;    */
 	font-weight: normal;
 	font-size: 3em;
 }
@@ -97,7 +97,7 @@ img.right {
 	text-transform: uppercase;
 	padding: 47px 0 0 3px;
 	font-size: 10px;
-	color: #110E0F;
+	color: #FFF;
 }
 
 #logo a {
@@ -133,7 +133,6 @@ img.right {
 	margin: 0;
 	padding: 18px 30px 0 30px;
 	text-decoration: none;
-	text-transform: capitalize;
 	background: url(images/img03.jpg) no-repeat right top;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12px;
@@ -158,7 +157,7 @@ img.right {
 #page {
 	width: 990px;
 	margin: 0 auto;
-	padding: 20px 5px;
+	padding: 10px 5px;
 	background: #FFFFFF;
 }
 
@@ -253,7 +252,7 @@ img.right {
 }
 
 .sidebar li {
-	padding: 0 0 20px 0;
+	padding: 0 0 10px 0;
 }
 
 .sidebar li ul {
@@ -296,12 +295,22 @@ img.right {
 #s {
 	margin: 10px 0px 0 15px;
 	padding: 2px 2px;
-	width: 180px;
+	width: 120px;
 	height: 18px;
 	border: 1px solid #CA8186;
 	background: #FFFFFF;
 	font-size: 10px;
 	color: #000000;
+}
+
+.b {
+	text-decoration: none;
+	color: #8C0209;
+	border: 1px ##8C0209 solid; 
+}
+
+b:hover {
+
 }
 
 #x {
@@ -386,4 +395,8 @@ img.right {
 
 .flower {
 	padding-left: 20px;
+}
+
+.hello {
+	font-color:#900
 }
