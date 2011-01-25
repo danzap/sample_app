@@ -3,6 +3,7 @@ require 'spec_helper'
 describe PagesController do
   render_views
 
+=begin
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
@@ -15,6 +16,7 @@ describe PagesController do
                         :content => "Ruby on Rails Tutorial Sample App | Home")
     end
   end
+=end
 
   describe "GET 'contact'" do
     it "should be successful" do
